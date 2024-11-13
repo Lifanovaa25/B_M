@@ -10,37 +10,15 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
+    color: var(--color);
+
 }
 
 body {
     background: var(--bg-gray);
 }
 
-section {
-    padding: 111px 0 107px 0;
-}
-
-.white-bg {
-    background: var(--white);
-}
-
-.gray-bg {
-    background: var(--bg-gray);
-
-}
-
-h2,
-h2.h2 {
-
-    color: var(--color);
-}
-
-h3,
-h3.h3 {
-
-    color: var(--color);
-
-}
 
 .wrapper {
     max-width: 1170px;

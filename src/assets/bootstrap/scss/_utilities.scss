@@ -229,6 +229,7 @@ $utilities: map-merge(
         50: 50%,
         75: 75%,
         100: 100%,
+        px80:5rem,
         auto: auto
       )
     ),
@@ -720,7 +721,8 @@ $utilities: map-merge(
         4: var(--#{$prefix}border-radius-xl),
         5: var(--#{$prefix}border-radius-xxl),
         circle: 50%,
-        pill: var(--#{$prefix}border-radius-pill)
+        pill: var(--#{$prefix}border-radius-pill),
+        30: $border-radius-30,
       )
     ),
     "rounded-top": (
