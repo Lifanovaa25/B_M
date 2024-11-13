@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
     <link rel="stylesheet" href="./assets//bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets//bootstrap/css/bootstrap.css">
     <!-- select country -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
@@ -17,15 +18,15 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header bg-white position-relative">
     <div class="container-fluid top">
-        <div class="row header-wrap ">
+        <div class="row px-70 align-items-center ">
             <div class="nav col-6" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                <button class=" tab text-uppercase active" id="v-pills-adipis-tab" data-bs-toggle="pill"
+                <button class="fs-15 position-relative p-18 text-uppercase tab active" id="v-pills-adipis-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-adipis" type="button" role="tab" aria-controls="v-pills-adipis"
                     aria-selected="true"> consectetur
                     adipis</button>
-                <button class="tab text-uppercase " id="v-pills-consect-tab" data-bs-toggle="pill"
+                <button class="fs-15 tab fw-light text-uppercase p-18 " id="v-pills-consect-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-consect" type="button" role="tab" aria-controls="v-pills-consect"
                     aria-selected="false">
                     consect
@@ -33,10 +34,10 @@
             </div>
 
             <div class="lang-select col-6 d-flex justify-content-end">
-                
+
                 <div class="col-1 d-flex align-items-center">
-                    <select class="selectpicker custom-select" >
-                        <option data-content='<span class="flag-icon flag-icon-ru"></span> ' width="24" ></option>
+                    <select class="selectpicker custom-select">
+                        <option data-content='<span class="flag-icon flag-icon-ru"></span> ' width="24"></option>
                         <option data-content='<span class="flag-icon flag-icon-en"></span> '></option>
                     </select>
                 </div>
@@ -44,10 +45,11 @@
 
         </div>
     </div>
+
     <div class="container-fluid">
-        <div class="row header-wrap">
+        <div class="row px-70 align-items-center">
             <div class="col-3 p-0">
-                <a class="header-brand logo" href="#">Logo</a>
+                <a class="fw-bolder fs-15 text-uppercase text-center logo" href="#">Logo</a>
             </div>
             <div class="col-9 p-0 d-flex justify-content-end">
                 <nav class="navbar navbar-expand-lg p-0">
@@ -57,62 +59,61 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="nav-gap collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-links-t nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover active"
+    <div class="nav-gap gap-70 collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav gap-30">
+            <a class="nav-links-t  h-px80 d-flex align-items-center justify-content-center fs-18 fw-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover active"
                 aria-current="page" href="#">Sunt in ulpa qui offici</a>
-            <a class="nav-links-t nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="nav-links-t h-px80 d-flex align-items-center justify-content-center fs-18 fw-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="#">Adeserunt mollit</a>
-            <a class="nav-links-t nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="nav-links-t h-px80 d-flex align-items-center justify-content-center fs-18 fw-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="#"> Tlaborumsed ut </a>
-            <a class="nav-links-t nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            <a class="nav-links-t h-px80 d-flex align-items-center justify-content-center fs-18 fw-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                 href="#">FAQ</a>
         </div>
-        <button class="btn btn-primary fw-bolder text-uppercase">Lorem ipsum</button>
+        <button class="btn btn-primary px-35 fw-bolder text-uppercase">Lorem ipsum</button>
     </div>
 </nav>
             </div>
         </div>
     </div>
 </header>
-    <section class="white-bg">
-    <div class="container accordion-block">
+    <section class="bg-white pt-110 pb-105">
+    <div class="container mb-110">
         <div class="row justify-content-center d-flex mx-auto wrapper">
             <div class="image_block  col-xl-3 col-6">
-                <img src="./assets/img/img.svg" class="img" alt="">
+                <img src="./assets/img/img.svg" class="w-100" alt="">
             </div>
             <div class="content-block d-flex flex-column justify-content-between align-items-start col-xl-9 col-12">
-                <h2 class="h2">Esse cillum dolore fugiat nulla pariatur</h2>
+                <h2 class="lh-base fw-bolder mb-30">Esse cillum dolore fugiat nulla pariatur</h2>
 
                 <div class="accordion">
                     <div class="accordion-item">
-    <h3 class="accordion-header d-flex justify-content-between align-items-center  h3" >
-        <div class="accordion-item-number h3">001</div>
-        <button class="accordion-button h3 " type="button" data-bs-toggle="collapse"
+    <h3 class="accordion-header overflow-hidden p-0 m-0 d-flex justify-content-between align-items-center h3" >
+        <div class="fw-bolder lh-lg">001</div>
+        <button class="accordion-button lh-lg m-0 py-0 fw-bolder fs-22  " type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseOne" 
             aria-expanded="true"
             aria-controls="panelsStayOpen-collapseOne">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
         </button>
     </h3>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
-        >
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" >
         <div class="accordion-body">
-            <ul class=" body-content">
-                <li class="fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
+            <ul class=" body-content py-25 pl-80">
+                <li class="fw-light fs-6 fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia
                     deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
+                <li class="fw-light fs-6 fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
                     unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
+                <li class="fw-light fs-6 fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
                     perspiciatis unde omnis
                     iste
                 </li>
-                <li class="fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
+                <li class="fw-light fs-6 fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae ab illo
                     inventore veritatis etaut fugit
                 </li>
@@ -123,9 +124,9 @@
 </div>
 
 <div class="accordion-item">
-    <h3 class="accordion-header d-flex justify-content-between align-items-starth3" id="panelsStaypanelsStayOpen-headingTwo">
-        <div class="accordion-item-number h3">002</div>
-        <button class="accordion-button h3 collapsed" type="button" data-bs-toggle="collapse"
+    <h3 class="accordion-header overflow-hidden p-0 m-0 d-flex justify-content-between align-items-center h3" id="panelsStaypanelsStayOpen-headingTwo">
+        <div class="lh-lg fw-bolder">002</div>
+        <button class="accordion-button lh-lg m-0 py-0 fw-bolder fs-22  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
             aria-controls="panelsStayOpen-collapseTwo">
             Voluptatem quia voluptas sit aspernatur aut odit aspernatur aut
@@ -135,20 +136,20 @@
         aria-labelledby="panelsStayOpen-headingTwo">
         <div class="accordion-body">
             <ul class=" body-content">
-                <li class="fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
+                <li class="fs-6 fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia
                     deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
+                <li class="fs-6 fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
                     unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
+                <li class="fs-6 fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
                     perspiciatis unde omnis
                     iste
                 </li>
-                <li class="fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
+                <li class="fs-6 fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae ab illo
                     inventore veritatis etaut fugit
                 </li>
@@ -160,9 +161,10 @@
 
 <div class="accordion-item">
 
-    <h3 class="accordion-header d-flex justify-content-between align-items-starth3" id="panelsStayOpen-headingTwo">
-        <div class="accordion-item-number h3">003</div> <button
-            class="accordion-button h3  collapsed" type="button" data-bs-toggle="collapse"
+    <h3 class="accordion-header overflow-hidden p-0 m-0 d-flex justify-content-between align-items-center h3" id="panelsStayOpen-headingTwo">
+        <div class="fw-bolder lh-lg">003</div>
+         <button
+            class="accordion-button lh-lg m-0 py-0 fw-bolder fs-22  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
             aria-controls="panelsStayOpen-collapseThree">
 
@@ -173,20 +175,20 @@
         aria-labelledby="panelsStayOpen-headingThree">
         <div class="accordion-body">
             <ul class=" body-content">
-                <li class="fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
+                <li class="fs-6 fw-light list-content">Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia
                     deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
+                <li class="fs-6 fw-light list-content">Deserunt mollit anim id est laborum. Sed ut perspiciatis
                     unde omnis
                     isteaspernatur aut.
                 </li>
-                <li class="fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
+                <li class="fs-6 fw-light list-content">Qui officia deserunt mollit anim id est laborum. Sed ut
                     perspiciatis unde omnis
                     iste
                 </li>
-                <li class="fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
+                <li class="fs-6 fw-light list-content">Accusantium doloremque laudantium, totam rem aperiam, eaque
                     ipsa quae ab illo
                     inventore veritatis etaut fugit
                 </li>
@@ -201,18 +203,18 @@
 
     </div>
     <div class="container banner-block mx-auto wrapper">
-    <div class="banner">
-        <div class="banner-body">
-            <div class="content-body-text">
-                <div class="fw-bolder banner-title text-center">
+    <div class="banner bg-white rounded-30 p-35 pb-64 d-flex align-items-center justify-content-center position-relative">
+        <div class="d-flex align-items-center justify-content-center flex-column gap-5" >
+            <div class=" d-flex align-items-center justify-content-center flex-column gap-4">
+                <div class="fw-bolder fs-30 lh-base banner-title text-center">
                     Deserunt mollit anim id est laborum perspiciatis unde
                 </div>
-                <div class="banner-text fw-light lh-sm text-center">
+                <div class="lh-base fs-22 fw-light lh-sm text-center">
                     Quia voluptas sit aspernatur voluptas
                 </div>
             </div>
 
-            <button class="btn btn-primary text-uppercase fw-bolder banner_btn">Lorem ipsum dolor sit amet</button>
+            <button class="btn btn-primary px-80 py-18 lh-base text-uppercase fw-bolder padding-x-md banner_btn">Lorem ipsum dolor sit amet</button>
         </div>
     </div>
 </div>
