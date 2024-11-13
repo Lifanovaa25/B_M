@@ -75,10 +75,17 @@ gulp.task("scss", function () {
 });
 gulp.task("css", function () {
   return gulp
-    .src("./src/assets/scss/**/*.css")
+    .src("./src/assets/bootstrap/scss/**/*.scss")
+    .pipe(plumber(plumberScssConfig)) //обработка ошибок
+    .pipe(sourceMaps.init())
+    .pipe(scss())
+    .pipe(groupMedia())
+    .pipe(sourceMaps.write())
     .pipe(gulp.dest("./build/assets/bootstrap/css/"));
 });
 
+
+//сборка css bootstrap
 //js
 gulp.task("js", function () {
   return gulp
@@ -115,6 +122,7 @@ gulp.task("server", function () {
 gulp.task("watch", function () {
   gulp.watch("./src/assets/scss/**/*.css", gulp.parallel("css"));
   gulp.watch("./src/assets/scss/**/*.scss", gulp.parallel("scss"));
+  gulp.watch("./src/assets/bootstrap/scss/**/*.scss", gulp.parallel("css"));
   gulp.watch("./src/assets/js/**/*.js", gulp.parallel("js"));
   gulp.watch("./src/**/*.html", gulp.parallel("html"));
   gulp.watch("./src/assets/img/**/*", gulp.parallel("img"));
