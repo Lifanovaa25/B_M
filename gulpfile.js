@@ -135,7 +135,7 @@ gulp.task(
   "default",
   gulp.series(
     "clean",
-    gulp.parallel("html", "css", "scss", "js", "img", "fonts"),
+    gulp.parallel("html",  "scss", "js", "img", "fonts"),
     gulp.parallel("server", "watch")
   )
 );
