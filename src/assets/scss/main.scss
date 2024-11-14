@@ -5,12 +5,13 @@
 @use './blocks/header';
 @use './blocks/accordion';
 @use './customCss.scss';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
+    font-family: var(--Neris);
     color: var(--color);
 
 }
