@@ -7,9 +7,6 @@
 .top {
     border-bottom: 1px solid var(--border-gray);
 
-    .header-wrap {
-        padding: 0 70px;
-    }
 
     @media (max-width:992px) {
         display: none;

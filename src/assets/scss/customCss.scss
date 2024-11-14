@@ -1,0 +1,129 @@
+
+
+@import './variables';
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./node_modules/bootstrap/scss/variables";
+
+
+
+
+@import "./node_modules/bootstrap/scss/maps";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/root";
+
+@import "./node_modules/bootstrap/scss/reboot";
+@import "./node_modules/bootstrap/scss/containers";
+@import "./node_modules/bootstrap/scss/grid";
+@import "./node_modules/bootstrap/scss/buttons";
+@import "./node_modules/bootstrap/scss/transitions";
+@import "./node_modules/bootstrap/scss/dropdown";
+@import "./node_modules/bootstrap/scss/button-group";
+@import "./node_modules/bootstrap/scss/nav";
+@import "./node_modules/bootstrap/scss/navbar";
+@import "./node_modules/bootstrap/scss/card";
+@import "./node_modules/bootstrap/scss/accordion";
+@import "./node_modules/bootstrap/scss/utilities";
+$utilities: map-merge($utilities,
+        ("font-size": map-merge(map-get($utilities, "font-size"),
+                (values: map-merge(map-get(map-get($utilities, "font-size"), "values"),
+                        (15: $font-size-15,
+                            22:$font-size-22 ,
+                            30:$font-size-30 ),
+                    ),
+                ),
+            ),
+            "padding": map-merge(map-get($utilities, "padding"),
+                (values: map-merge(map-get(map-get($utilities, "padding"), "values"),
+                        ($custom-spacer)),
+                ),
+            ),
+            "padding-top": map-merge(map-get($utilities, "padding-top"),
+                (values: map-merge(map-get(map-get($utilities, "padding-top"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "padding-bottom": map-merge(map-get($utilities, "padding-bottom"),
+                (values: map-merge(map-get(map-get($utilities, "padding-bottom"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+
+            "padding-x": map-merge(map-get($utilities, "padding-x"),
+                (values: map-merge(map-get(map-get($utilities, "padding-x"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "padding-y": map-merge(map-get($utilities, "padding-y"),
+                (values: map-merge(map-get(map-get($utilities, "padding-y"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "gap": map-merge(map-get($utilities, "gap"),
+                (values: map-merge(map-get(map-get($utilities, "gap"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin": map-merge(map-get($utilities, "margin"),
+                (values: map-merge(map-get(map-get($utilities, "margin"), "values"),
+                        $custom-spacer),
+                ),
+
+            ),
+
+            "margin-top": map-merge(map-get($utilities, "margin-top"),
+                (values: map-merge(map-get(map-get($utilities, "margin-top"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin-bottom": map-merge(map-get($utilities, "margin-bottom"),
+                (values: map-merge(map-get(map-get($utilities, "margin-bottom"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin-start": map-merge(map-get($utilities, "margin-start"),
+                (values: map-merge(map-get(map-get($utilities, "margin-start"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin-end": map-merge(map-get($utilities, "margin-end"),
+                (values: map-merge(map-get(map-get($utilities, "margin-end"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin-x": map-merge(map-get($utilities, "margin-x"),
+                (values: map-merge(map-get(map-get($utilities, "margin-x"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+            "margin-y": map-merge(map-get($utilities, "margin-y"),
+                (values: map-merge(map-get(map-get($utilities, "margin-y"), "values"),
+                        $custom-spacer),
+                ),
+            ),
+
+            "height": map-merge(map-get($utilities, "height"),
+                (values: map-merge(map-get(map-get($utilities, "height"), "values"),
+                        (px80:5rem)),
+                ),
+
+            ),
+            "rounded": map-merge(map-get($utilities, "rounded"),
+                (values: map-merge(map-get(map-get($utilities, "rounded"), "values"),
+                        (30: $border-radius-30))),
+            ),
+
+        ));
+
+
+
+
+
+
+@import "./node_modules/bootstrap/scss/utilities/api";
+
